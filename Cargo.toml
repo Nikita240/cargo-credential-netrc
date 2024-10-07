@@ -1,0 +1,19 @@
+[package]
+name = "cargo-credential-netrc"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nikita Rushmanov <rush3nik@gmail.com>"]
+description = "A high level Rust wrapper for executing FMU's that follow the FMI 2.0 standard."
+repository = "https://github.com/Nikita240/cargo-credential-netrc"
+homepage = "https://github.com/Nikita240/cargo-credential-netrc"
+license = "MIT OR Apache-2.0"
+keywords = ["cargo-credential", "credential", "netrc"]
+categories = ["development-tools::cargo-plugins", "command-line-utilities", "authentication"]
+readme = "README.md"
+exclude = ["tests"]
+
+[dependencies]
+cargo-credential = "0.4.6"
+clap = { version = "4.5.19", features = ["derive"] }
+rust-netrc = "0.1.1"
+url = "2.5.2"

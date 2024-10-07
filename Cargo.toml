@@ -15,5 +15,6 @@ exclude = ["tests"]
 [dependencies]
 cargo-credential = "0.4.6"
 clap = { version = "4.5.19", features = ["derive"] }
+handlebars = "6.1.0"
 rust-netrc = "0.1.1"
 url = "2.5.2"
